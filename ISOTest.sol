@@ -18,7 +18,7 @@ contract ISODeployer {
     mapping (uint8 => uint8[]) private enterprises;
     
     
-    function addISO(uint8 enterprise, uint8 num) 
+    function addISOssss(uint8 enterprise, uint8 num) 
     public 
     {
         enterprises[enterprise].push(num);
